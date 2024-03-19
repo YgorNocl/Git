@@ -17,7 +17,7 @@ function sortear(){
 
     
     let resultado = document.getElementById('resultado');
-    let sorte = quantidade > 2 ? 'Sorteados' : "Sorteado";
+    let sorte = quantidade > 1 ? 'Sorteados' : "Sorteado";
     resultado.innerHTML = `<label class="texto__paragrafo">Números ${sorte}:  ${sorteados}</label>`;
     alterarStatusBotao();
 }
